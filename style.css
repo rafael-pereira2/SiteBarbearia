@@ -105,8 +105,7 @@ a{
 }
 
 .conteudo-sobre-descricao{
-    margin-top: 40px;
-    margin-left: -65px;
+    margin-top: 40px;    
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
@@ -163,12 +162,12 @@ a{
         width: 180px;
     }
         
-    .conteudo-sobre-descricao{
+    .conteudo-sobre-descricao{        
         font-size: 15px;
     }
-    .conteudo-sobre-mapa{
-        width: 220px;
-        height: 220px;
+    .conteudo-sobre-mapa{        
+        width: 240px;
+        height: 240px;
     }
     .conteudo-sobre-social{
         font-size: 11px;
