@@ -89,8 +89,7 @@ a{
 
 .conteudo-secundario-galeria-item:hover{
     transform: scale(1.2);
-    filter: none;
-    
+    filter: none;    
 }
 
 .conteudo-sobre{
@@ -123,56 +122,3 @@ a{
 }
 
 /*Inicio responsividade*/
-@media(max-width: 600px){
-    
-    .cabecalho-imagem{
-        width: 50px;
-    }
-    
-    .cabecalho-menu{                 
-        gap:85px;
-    }
-
-    .cabecalho-menu-item{
-        font-size: 12px;
-    }
-
-    .conteudo-principal{                
-        padding: 35px 80px 35px 80px;
-        gap: 30px;
-    }
-
-    .conteudo-principal-sobre-titulo{
-        font-size: 20px;
-    }   
-
-    .conteudo-principal-sobre-historia{
-        font-size: 15px;
-    }
-
-    .conteudo-secundario{
-        margin-top: 35px;
-    }
-
-    .conteudo-secundario-galeria{
-        gap: 25px;
-
-    }
-    .conteudo-secundario-galeria-item{        
-        width: 180px;
-    }
-        
-    .conteudo-sobre-descricao{        
-        font-size: 15px;
-    }
-    .conteudo-sobre-mapa{        
-        width: 240px;
-        height: 240px;
-    }
-    .conteudo-sobre-social{
-        font-size: 11px;
-    }
-    .conteudo-social-item{
-        width: 30px;        
-    }
-}
