@@ -5,7 +5,8 @@
     margin: 0;
     padding: 0;        
 }
-body{
+body{    
+    margin: auto;
     font-size: 100%;
     color: #f0cfcf;
     background: linear-gradient(244.25deg, #2B1212 46.33%, #1A0707 68.66%);      
@@ -15,23 +16,21 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 5px;
-    background: #7C7979;
+    justify-content: space-around;    
+    background: #7C7979;        
 }
 
-.cabecalho-imagem{
-    height: 72px;
+.cabecalho-imagem{    
+    width: 180px;
 }
 
 .cabecalho-menu{
     display: flex;
-    gap: 180px;
+    gap: 280px;
 }
 
-.cabecalho-menu-item{
-    font-weight: 400;
-    font-size: 18px;    
+.cabecalho-menu-item{    
+    font-size: 22px;    
 }
 
 a{	
@@ -81,15 +80,17 @@ a{
     gap: 45px;    
 }
 
-.conteudo-secundario-galeiria-item{
+.conteudo-secundario-galeria-item{
     box-shadow: 5px 8px 8px black;
     filter: grayscale(60%);    
     transition: transform 0.5s linear;
+    width: 370px;
 }
 
-.conteudo-secundario-galeiria-item:hover{
+.conteudo-secundario-galeria-item:hover{
     transform: scale(1.2);
     filter: none;
+    
 }
 
 .conteudo-sobre{
@@ -102,28 +103,77 @@ a{
     justify-content: space-around;
     gap: 20px;    
 }
-.conteudo-sobre-titulo{
-    height: 48px;
-    display:block;
-    width: 100%;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    margin-left: -65px;
-}
+
 .conteudo-sobre-descricao{
     margin-top: 40px;
     margin-left: -65px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
+
 .conteudo-sobre-social{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;  
 }
 .conteudo-social-imagens{
-    margin-top: 10px;
+    margin-top: 10px;    
     display: flex;
     flex-direction: row;
     justify-content:center;
-    gap: 30px;
+    gap: 30px;    
+}
+
+/*Inicio responsividade*/
+@media(max-width: 600px){
+    
+    .cabecalho-imagem{
+        width: 50px;
+    }
+    
+    .cabecalho-menu{                 
+        gap:85px;
+    }
+
+    .cabecalho-menu-item{
+        font-size: 12px;
+    }
+
+    .conteudo-principal{                
+        padding: 35px 80px 35px 80px;
+        gap: 30px;
+    }
+
+    .conteudo-principal-sobre-titulo{
+        font-size: 20px;
+    }   
+
+    .conteudo-principal-sobre-historia{
+        font-size: 15px;
+    }
+
+    .conteudo-secundario{
+        margin-top: 35px;
+    }
+
+    .conteudo-secundario-galeria{
+        gap: 25px;
+
+    }
+    .conteudo-secundario-galeria-item{        
+        width: 180px;
+    }
+        
+    .conteudo-sobre-descricao{
+        font-size: 15px;
+    }
+    .conteudo-sobre-mapa{
+        width: 220px;
+        height: 220px;
+    }
+    .conteudo-sobre-social{
+        font-size: 11px;
+    }
+    .conteudo-social-item{
+        width: 30px;        
+    }
 }
