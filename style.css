@@ -3,19 +3,24 @@
 
 *{
     margin: 0;
-    padding: 0;        
+    padding: 0;            
 }
+html {
+    scroll-behavior: smooth;
+  }
+
 body{    
     margin: auto;
     font-size: 100%;
     color: #f0cfcf;
-    background: linear-gradient(244.25deg, #2B1212 46.33%, #1A0707 68.66%);      
+    background: linear-gradient(244.25deg, #2B1212 46.33%, #1A0707 68.66%);          
 }
 
 #cabecalho{    
     position: fixed;
     display: flex;
     flex-direction: row;
+    z-index: 99;  
     top: 0;
     left: 0;
     width: 100%;
@@ -23,16 +28,16 @@ body{
     align-items: center;
     justify-content: space-around;    
     background: #7C7979;       
-    z-index: 99;         
+    filter: opacity(85%);              
 }
 
 .cabecalho-imagem{    
-    width: 110px;
+    width: 110px;    
 }
 
 .cabecalho-menu{
     display: flex;
-    gap: 280px;
+    gap: 280px;    
 }
 
 .cabecalho-menu-item{    
