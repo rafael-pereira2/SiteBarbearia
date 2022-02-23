@@ -1,5 +1,8 @@
 @media(max-width: 600px){
     
+    #cabecalho{
+        height: 40px;
+    }
     .cabecalho-imagem{
         width: 50px;
     }
@@ -25,7 +28,7 @@
         font-size: 15px;
     }
 
-    .conteudo-secundario{
+    #conteudo-secundario{
         margin-top: 35px;
     }
 
@@ -37,7 +40,7 @@
         width: 180px;
     }
     
-    .conteudo-sobre{
+    #conteudo-sobre{
         padding: 20px 40px 20px 40px;
     }
         
