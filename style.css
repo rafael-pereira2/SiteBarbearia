@@ -22,7 +22,8 @@ body{
     height: 70px;  
     align-items: center;
     justify-content: space-around;    
-    background: #7C7979;        
+    background: #7C7979;       
+    z-index: 99;         
 }
 
 .cabecalho-imagem{    
