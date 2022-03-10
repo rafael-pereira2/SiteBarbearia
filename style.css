@@ -56,7 +56,7 @@ a{
 .conteudo-principal-imagem{
     margin-top: 0.5px;
     width: 100%;    
-    display: block;
+    display: block;    
 }
 
 .conteudo-principal{    
@@ -84,6 +84,7 @@ a{
 }
 
 .conteudo-secundario-galeria{        
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,7 +96,8 @@ a{
     box-shadow: 5px 8px 8px black;
     filter: grayscale(60%);    
     transition: transform 0.5s linear;
-    width: 370px;
+    width: 373px;
+    height: 319px;
 }
 
 .conteudo-secundario-galeria-item:hover{
