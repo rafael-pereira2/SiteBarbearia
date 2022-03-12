@@ -37,7 +37,8 @@
     }
 
     .conteudo-secundario-galeria-item{        
-        width: 180px;
+        width: 100px;
+        height: 100px;
     }
     
     #conteudo-sobre{
