@@ -43,7 +43,6 @@ body{
 .cabecalho-menu-item{    
     font-size: 20px;    
 }
-
 a{	
 	color: #f0cfcf;;
     text-decoration: none;
@@ -83,21 +82,20 @@ a{
     margin-top: 65px; 
 }
 
-.conteudo-secundario-galeria{        
-    
+.conteudo-secundario-galeria{    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 45px;    
+    gap: 50px 180px;    
 }
 
 .conteudo-secundario-galeria-item{  
     box-shadow: 5px 8px 8px black;
     filter: grayscale(60%);    
     transition: transform 0.5s linear;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 
 .conteudo-secundario-galeria-item:hover{
@@ -108,7 +106,7 @@ a{
 #conteudo-sobre{    
     font: 100%;
     margin-top: 45px;
-    padding: 35px 90px 20px 140px;
+    padding: 35px 90px 20px 180px;
     background: #453C3C;;        
     display: flex;
     flex-wrap: wrap;
